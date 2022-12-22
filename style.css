@@ -107,7 +107,20 @@ article.post:last-of-type {
 }
 
 /* Footer */
+
+/* Footer Menu */
+.site-footer nav ul li {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #bbb;
+}
+
 .site-footer {
     border-top: 2px solid #999;
     margin-top: 30px;
+}
+
+/* Page Layout */
+article.page h2 {
+    font-size: 300%;
 }
