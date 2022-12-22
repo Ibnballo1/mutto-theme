@@ -124,3 +124,9 @@ article.post:last-of-type {
 article.page h2 {
     font-size: 300%;
 }
+
+/* Column Container */
+.column-container {
+    display: grid !important;
+    grid-template-columns: 30% 70%;
+}
