@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <base href="/">
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <title><?php bloginfo('name'); ?></title>
@@ -11,7 +10,7 @@
 <body <?php body_class(); ?>>
     <!-- Site Header -->
     <header class="site-header">
-        <h1><?php bloginfo('name'); ?></h1>
+        <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
         <h5><?php bloginfo('description'); ?></h5>
     </header>
     <!-- Site Header -->

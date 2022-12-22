@@ -6,7 +6,7 @@
     <?php the_content(); ?>
     <?php endwhile;
     else :
-        echo '<p>No Content Found.</p>';
+        echo '<h2>No Content Found.</h2>';
     endif;
   get_footer();
 ?>
