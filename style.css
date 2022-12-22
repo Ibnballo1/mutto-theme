@@ -96,7 +96,9 @@ article.post:last-of-type {
 }
 
 .site-header nav ul li.current-menu-item a:link,
-.site-header nav ul li.current-menu-item a:visited {
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
     background-color: #006ec3;
     color: #fff;
 }
@@ -129,4 +131,57 @@ article.page h2 {
 .column-container {
     display: grid !important;
     grid-template-columns: 30% 70%;
+}
+
+/* Inf0 Box */
+.info-box {
+    width: 30%;
+    float: right;
+    margin: 0 0 30px 30px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.info-box h4 {
+    margin-bottom: 6px;
+}
+
+.info-box p {
+    font-size: 85%;
+}
+
+/* Children Link */
+.children-links {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+    text-decoration: none;
+}
+
+.children-links li {
+    margin-right: 20px;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.children-links .parent-link {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+    color: #333;
 }
